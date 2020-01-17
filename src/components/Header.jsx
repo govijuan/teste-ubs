@@ -10,6 +10,9 @@ const Header = props =>
 const Wrap = styled.header`
     height: 76px;
     background-color: #282c34;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 `
 const PageTitle = styled.h1`
     color: #ffffff;
